@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from quo import echo
 import requests, os, sys
+from quo import echo
 
 # Export openweather key as OPENWEATHER_API_KEY environment variable
 if "OPENWEATHER_API_KEY" not in os.environ:
